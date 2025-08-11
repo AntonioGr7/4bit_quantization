@@ -1,4 +1,4 @@
-# FP4 Quantization
+# FP4 Quantization Educational Implementation
 
 High-Level Overview of FP4 Quantization for LLMs FP4 (4-bit floating-point) quantization is a technique used to significantly reduce the memory footprint and computational cost of Large Language Models (LLMs). The core idea is to represent the high-precision floating-point numbers (like FP16 or FP32) that make up a model's weights and activations with a much smaller 4-bit floating-point format. This allows you to store a massive model in a fraction of the memory and perform computations faster.
 Here's a high-level breakdown of how it works:
